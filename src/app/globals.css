@@ -16,6 +16,12 @@
   }
 }
 
+@font-face {
+  font-family: "Urbanist";
+  font-weight: 400;
+  src: url("../../public/Assets/Fonts/Urbanist/Urbanist-Light.ttf") format('truetype');
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
