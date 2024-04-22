@@ -27,10 +27,10 @@ const Navbar = () => {
     <React.Fragment>
       <div className=" bg-black fixed w-full flex justify-center  items-center">
         <div
-          className={`flex bg-black translate-y-2 p-2 z-100 w-[95%] justify-between ${
+          className={`flex bg-black translate-y-2 p-2 z-100 justify-between transition-all ${
             isScrolled
-              ? "border-2 border-white rounded-full"
-              : "border-2 border-black"
+              ? "border-2 border-white rounded-full w-[90%]"
+              : "border-2 border-black w-[100%]"
           } text-white p-[0.5rem] items-center`}
         >
           <div className="flex items-center ">
