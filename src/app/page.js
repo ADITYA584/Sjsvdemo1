@@ -8,8 +8,13 @@ export default function Home() {
   const router = useRouter();
   return (
     <main>
+      <div className="bg-animation">
+        <div id="stars"></div>
+        <div id="stars"></div>
+        <div id="stars"></div>
+      </div>
       <div className=" flex flex-col items-center justify-center h-[91vh] pt-[9.5rem] ">
-        <div className="text-white text-4xl border-2px border-white">
+        <div className="text-white text-4xl border-2px border-white bg-transparent">
           <p>Making Galactic Moves</p>
           <br />
           <p>for your Brand? Begin Here</p>

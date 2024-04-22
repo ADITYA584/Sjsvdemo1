@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="text-white flex flex-col h-[100vh] justify-center items-center">
+    <div className="text-white flex flex-col h-[100vh] justify-center items-center bg-transparent">
       <p className="text-5xl">About</p>
       <br />
       <p className="text-xl">Epic brands aren’t just born. We redesign them</p>
