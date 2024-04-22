@@ -25,7 +25,7 @@ const Navbar = () => {
   console.log(isScrolled);
   return (
     <React.Fragment>
-      <div className=" bg-black fixed w-full flex justify-center  items-center">
+      <div className=" non-italic bg-black fixed w-full flex justify-center  items-center">
         <div
           className={`flex bg-black translate-y-2 p-2 z-100 justify-between transition-all ${
             isScrolled
@@ -38,10 +38,10 @@ const Navbar = () => {
             <p>STUDIO</p>
           </div>
           <div>
-            <ul className="flex px-[0.5rem] items-center">
-              <li className="px-[0.5rem] cursor-pointer">Work</li>
-              <li className="px-[0.5rem] cursor-pointer">About</li>
-              <li className="px-[0.5rem] cursor-pointer">Contact</li>
+            <ul className=" text-lg flex px-[0.8rem] items-center">
+              <li className="px-[0.8rem] cursor-pointer">Work</li>
+              <li className="px-[0.8rem] cursor-pointer">About</li>
+              <li className="px-[0.8rem] cursor-pointer">Contact</li>
 
               <li className="px-[0.5rem]">
                 <button className="broder-white bg-rose-400  rounded-full w-[8rem] p-[0.5rem] text-white ">

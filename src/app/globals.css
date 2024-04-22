@@ -16,10 +16,12 @@
   }
 }
 
+
+
 @font-face {
   font-family: "Urbanist";
-  font-weight: 400;
-  src: url("../../public/Assets/Fonts/Urbanist/Urbanist-Light.ttf") format('truetype');
+  font-weight: 600;   
+  src: url("../../public/Assets/Fonts/Urbanist/Urbanist-Italic.ttf")format('truetype') ;
 }
 
 body {
@@ -258,7 +260,7 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Urbanist','Lato', sans-serif;
   background: transparent;
   color: #b3aca7;
 }
